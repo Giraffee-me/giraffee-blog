@@ -2,6 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;400;700;900&display=swap');
+
+:root {
+    --main-color: #fadc41;
+    --font-color: #282828;
+    --main-size: 65%;
+}
+body {
+    direction: rtl;
+    font-family: 'Cairo', sans-serif;
+    text-align: right;
+}
+  ::selection {
+    background-color: var(--main-color)
+}
 
 
 
