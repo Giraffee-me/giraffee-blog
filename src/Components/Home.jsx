@@ -1,11 +1,13 @@
+import HomeHeader from "./HomeHeader";
+
 
 
 function Home() {
   return (
-    <div>
-    Home
+    <div className="bg-primary py-[2rem]">
+        <HomeHeader/>
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;
