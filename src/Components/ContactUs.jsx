@@ -2,9 +2,9 @@
 
 function ContactUs() {
   return (
-    <div>
+    <section>
     ContactUs
-    </div>
+    </section>
   )
 }
 

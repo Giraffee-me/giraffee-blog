@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function HomeHeader() {
   return (
-    <div className="w-mainSize mx-auto flex flex-col lg:flex-row gap-[1rem] items-center">
+    <div className="w-smallSize sm:w-mainSize mx-auto flex flex-col lg:flex-row gap-[1rem] items-center">
         <div className="h-[400px] w-full lg:w-[49%] border-dashed border-[4px] border-white flex justify-center items-center">
             <img src={Home} alt="giraffee" className="w-[300px]" />
         </div>

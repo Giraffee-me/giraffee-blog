@@ -4,7 +4,7 @@ import Posts from "./Posts";
 
 function Blogs() {
   return (
-    <div className="w-mainSize mx-auto mt-[4rem]">
+    <section className="w-smallSize sm:w-mainSize mx-auto mt-[4rem]">
         <div className="flex justify-center ">
             <div className="flex items-center gap-[.5rem] ">
                 <BiSolidLeftArrow  className="text-white text-[1.5rem]"/>
@@ -13,7 +13,7 @@ function Blogs() {
             </div>
         </div>
         <Posts/>
-    </div>
+    </section>
   )
 }
 

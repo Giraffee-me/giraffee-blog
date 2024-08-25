@@ -1,3 +1,5 @@
+import { GiSmallFire } from 'react-icons/gi';
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
@@ -9,6 +11,7 @@ export default {
           },
           width : {
             mainSize: '65%',
+            smallSize: '90%',
           }
     },
   },

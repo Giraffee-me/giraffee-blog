@@ -13,6 +13,8 @@ body {
     direction: rtl;
     font-family: 'Cairo', sans-serif;
     text-align: right;
+    background-color: var(--main-color);
+    height: 100vh;
 }
   ::selection {
     background-color: var(--main-color)
