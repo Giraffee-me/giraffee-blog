@@ -1,9 +1,16 @@
+import { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import {posts} from './PostData'
 import { BiSolidLeftArrow } from "react-icons/bi";
 import { BiSolidRightArrow } from "react-icons/bi";
 
 function PostDetails() {
+
+    // To Start show the page form the Top
+    useEffect (() => {
+        window.scrollTo(0, 0);
+    },[]);
+
     const { id } = useParams();
     const post = posts.find((post) => post.id === parseInt(id));
   

@@ -8,7 +8,7 @@ function Blogs() {
         <div className="flex justify-center ">
             <div className="flex items-center gap-[.5rem] ">
                 <BiSolidLeftArrow  className="text-white text-[1.5rem]"/>
-                <h2 className="text-[2rem] font-bold ">التدوينات </h2>
+                <h2 id="blogs" className="text-[2rem] font-bold ">التدوينات</h2>
                 <BiSolidRightArrow className="text-white text-[1.5rem]"/>
             </div>
         </div>
