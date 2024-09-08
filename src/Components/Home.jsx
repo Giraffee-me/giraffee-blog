@@ -1,4 +1,4 @@
-import Blogs from "./Blogs/Blogs";
+import Blogs from "./Blogs/PostsContainer";
 import HomeHeader from "./HomeHeader";
 
 
