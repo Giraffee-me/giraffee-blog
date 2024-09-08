@@ -16,7 +16,7 @@ function HomeHeader() {
             <div>
                 <Link
                 to="/"
-                className="font-bold bg-white px-[1.5rem] text-[24px] py-2 border-dashed border-[2px] border-white hover:border-black duration-200"
+                className="font-bold bg-white px-[1.5rem] text-[24px] py-1 border-dashed border-[2px] border-white hover:border-black duration-200"
                 >
                 اشترك
                 </Link>
