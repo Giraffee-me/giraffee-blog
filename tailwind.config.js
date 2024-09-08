@@ -1,4 +1,4 @@
-import { GiSmallFire } from 'react-icons/gi';
+// import { GiSmallFire } from 'react-icons/gi';
 
 /** @type {import('tailwindcss').Config} */
 export default {
