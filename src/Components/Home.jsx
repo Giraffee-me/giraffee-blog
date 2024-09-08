@@ -5,7 +5,7 @@ import HomeHeader from "./HomeHeader";
 
 function Home() {
   return (
-    <section className=" py-[2rem]">
+    <section className=" pt-[2rem]">
         <HomeHeader/>
         <Blogs/>
     </section>
