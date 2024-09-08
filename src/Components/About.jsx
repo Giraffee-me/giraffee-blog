@@ -13,7 +13,7 @@ function About() {
           <div className="flex justify-center mb-[1rem]">
               <div className="flex items-center gap-[.5rem] ">
                   <BiSolidLeftArrow  className="text-primary text-[1.5rem]"/>
-                  <h2 className="text-[1.5rem] font-bold ">زرافة </h2>
+                  <h2 className="text-[1.5rem] font-bold ">زرافة</h2>
                   <BiSolidRightArrow className="text-primary text-[1.5rem]"/>
               </div>
           </div>
