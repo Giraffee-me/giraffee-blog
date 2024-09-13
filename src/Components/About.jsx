@@ -4,7 +4,7 @@ import { BiSolidRightArrow } from "react-icons/bi";
 
 function About() {
   return (
-    <section className=" pt-[3rem]">
+    <section className="pt-[3rem]">
       <div className="w-smallSize sm:w-mainSize mx-auto">
           <div className=' mb-2 sm:w-[500px] mx-auto flex justify-center'>
               <img src={aboutImg} alt="Giraffee ID 'Pixel Design'" className='w-10/12'/>

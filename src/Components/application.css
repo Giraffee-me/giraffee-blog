@@ -1,0 +1,7 @@
+.appShadow {
+    box-shadow: 20px 20px;
+}
+
+.appShadow:hover {
+    box-shadow: 20px 28px;
+}

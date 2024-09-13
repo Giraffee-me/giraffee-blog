@@ -7,7 +7,7 @@ function Posts() {
     <section className="bg-white border-dashed border-[2px] border-black px-4 mt-[2rem] pb-[1rem]">
        {posts.map((post)=>{
         return (
-            <article className="py-[0.5rem]" key={post.id}>
+            <article className="py-[0.5rem] px-" key={post.id}>
                 <div className="flex justify-between items-center">
                     <Link to={`/blogs/${post.id}`} className="font-bold border-dashed border-b-[2px] border-b-black py-2 text-[20px] text-start"> {post.title} </Link>
                     <div className="text-[14px] text-[#808080]">تاريخ النشر:{post.date} </div>

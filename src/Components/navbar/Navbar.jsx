@@ -3,7 +3,7 @@ import logo from '../../assets/giraffee-logo.png'
 
 function Navbar() {
   return (
-    <header className=' w-full'>
+    <header className='w-full'>
         <div className='w-smallSize sm:w-mainSize mx-auto py-2 flex gap-2 justify-between items-center'>
             <div className='w-[60px] sm:w-[80px]'>
                 <Link to="/">
@@ -15,7 +15,7 @@ function Navbar() {
                     <Link to="/">التدوينات</Link>
                 </li>
                 <li>
-                    <Link to='/about' >عن زرافه</Link>
+                    <Link to='/about'>عن زرافة</Link>
                 </li>
                 <li>
                     <Link to='/contact-us'>اتصل بي</Link>
