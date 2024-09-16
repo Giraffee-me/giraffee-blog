@@ -1,28 +1,29 @@
-
-import { Route, Routes } from 'react-router-dom';
-import './App.css'
-import Navbar from './Components/navbar/Navbar'
-import Home from './Components/Home';
-import About from './Components/About';
-import ContactUs from './Components/ContactUs';
-import Footer from './Components/Footer';
-import PostDetails from './Components/Blogs/PostDetails';
-import Todo from './Components/Todo';
+import { Route, Routes } from "react-router-dom";
+import "./App.css";
+import Navbar from "./Components/navbar/Navbar";
+import Home from "./Components/pages/home/Home";
+import About from "./Components/pages/About";
+import ContactUs from "./Components/pages/ContactUs";
+import Footer from "./Components/Footer";
+import PostDetails from "./Components/Blogs/PostDetails";
+import Todo from "./Components/pages/todo/Todo";
+import Article from "./Components/pages/article/Article";
 
 function App() {
   return (
     <>
-        <Navbar/>
-            <Routes>
-                <Route path='/' element={<Home/>}/>
-                <Route path='/about' element={<About/>}/>
-                <Route path='/contact-us' element={<ContactUs/>}/>
-                <Route path="/blogs/:id" element={<PostDetails/>} />
-                <Route path="/todo" element={<Todo />}/>
-            </Routes>
-        <Footer/>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact-us" element={<ContactUs />} />
+        <Route path="/blogs/:id" element={<PostDetails />} />
+        <Route path="/todo" element={<Todo />} />
+        <Route path="/article" element={<Article />} />
+      </Routes>
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
