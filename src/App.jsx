@@ -5,7 +5,7 @@ import Home from "./Components/pages/home/Home";
 import About from "./Components/pages/About";
 import ContactUs from "./Components/pages/ContactUs";
 import Footer from "./Components/Footer";
-import PostDetails from "./Components/Blogs/PostDetails";
+// import PostDetails from "./Components/Blogs/PostDetails";
 import Todo from "./Components/pages/todo/Todo";
 import Article from "./Components/pages/article/Article";
 
@@ -17,9 +17,9 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact-us" element={<ContactUs />} />
-        <Route path="/blogs/:id" element={<PostDetails />} />
+        {/* <Route path="/blogs/:id" element={<PostDetails />} /> */}
         <Route path="/todo" element={<Todo />} />
-        <Route path="/article" element={<Article />} />
+        <Route path="/article/:url" element={<Article />} />
       </Routes>
       <Footer />
     </>

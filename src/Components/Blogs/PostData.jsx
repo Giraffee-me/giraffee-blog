@@ -1,5 +1,4 @@
 import empolyee from '../../assets/images/employee.png'
-import Language from '../../assets/images/bamej-and-c-language.png'
 import cup from '../../assets/images/cup-of-water-fullsize.png'
 
 export const posts = [
@@ -30,7 +29,7 @@ export const posts = [
         title: "منصة برمج ولغة سي C",
         date: " 2/10/2021 ",
         content : "في رحلة بحثي عن طرق دخول هذا العالم التقني المليء بالتعلم والذكاء لم يفاجئني عدد التخصصات والتفرعات والتنوع الهائل في المجالات فهو عالم كبير لا محالة، لكن ما اخذ مني مجهود ووقت هو أختيار الباب أو المدخل الأنسب لي للولوج لهذا العالم الضخم...",
-        img : Language
+        img : ""
     },
     {
         id: 3,
