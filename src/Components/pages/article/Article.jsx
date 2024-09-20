@@ -4,6 +4,7 @@ import articles from "./articles"
 import { useParams } from "react-router-dom";
 import Comments from "./Comments";
 import Qute from "./Qute";
+import { Helmet } from "react-helmet-async";
 
 
 function Article() {
@@ -33,7 +34,10 @@ function Article() {
 
     return(
         <>
-            <title important>مدونة زرافة - محاولة</title>
+            <Helmet>
+                <title>{article.title}</title>
+                <meta name="description" content={article.brief} />
+            </Helmet>
             <section className='w-smallSize sm:w-mainSize mx-auto py-[2rem]'>
 
                 {/******** Image ********/}

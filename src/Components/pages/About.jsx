@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet-async';
 import aboutImg from '../../../public/images/about-giraffee.png'
 import { BiSolidLeftArrow } from "react-icons/bi";
 import { BiSolidRightArrow } from "react-icons/bi";
@@ -20,6 +21,10 @@ function About() {
           <p className='text-[1.2rem]'>هي مدونة شخصية أسرد بها بعض الأفكار البسيطة التي تجول في خاطري سعياً لتفريغ بعض الطاقة وأملاً في تنظيم أفكاري وتطوير بعض المهارات مثل لغتي العربية والبرمجة…</p>
       </div>
       </div>
+      <Helmet>
+          <title>عن زرافة</title>
+          <meta name="description" content="هي مدونة شخصية أسرد بها بعض الأفكار البسيطة التي تجول في خاطري..."/>
+      </Helmet>
     </section>
   )
 }

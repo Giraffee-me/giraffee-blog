@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet-async';
 import mailPhoto from '../../../public/images/mail-white.png'
 import { BiSolidLeftArrow } from "react-icons/bi";
 import { BiSolidRightArrow } from "react-icons/bi";
@@ -20,6 +21,10 @@ function ContactUs() {
                 <p className='text-[1.2rem] text-center'>giraffee.me@gmail.com</p>
             </div>
         </div>
+        <Helmet>
+          <title>اتصل بي</title>
+          <meta name="description" content="يسعدني تواصلك معي عبر البريد الإلكتروني"/>
+      </Helmet>
     </section>
   )
 }
