@@ -2,11 +2,22 @@ import { useEffect } from "react";
 import ArticleTitle from "./ArticleTitle";
 import articles from "./articles"
 import { useParams } from "react-router-dom";
-import { DiscussionEmbed } from "disqus-react";
 import Comments from "./Comments";
+import Qute from "./Qute";
 
 
 function Article() {
+
+    const paragraph = (par, id) => {
+        if (par.text.link.url) {
+            return (
+                    <p key={id} className="mb-4 text-[1.2rem] leading-8 px-3">{par.text.t1} <a href={par.text.link.url} key={id} target="blank" className="hover:border-b-[2px] border-dashed border-fontColor">{par.text.link.name}</a> {par.text.t2}</p>
+            )
+        }  
+        else {
+            return <p key={id} className="mb-4 text-[1.2rem] leading-8 px-3">{par.text.t1}</p>
+        }
+    }
 
     // To Start show the page form the Top
     useEffect (() => {
@@ -22,6 +33,7 @@ function Article() {
 
     return(
         <>
+            <title important>مدونة زرافة - محاولة</title>
             <section className='w-smallSize sm:w-mainSize mx-auto py-[2rem]'>
 
                 {/******** Image ********/}
@@ -48,21 +60,20 @@ function Article() {
                                         par.title? <h3 key={id} className="font-bold text-[1.2rem] mt-6 mb-1">- {par.title}</h3> : null
                                     }
 
-                                    {
-                                        par.text? <p key={id} className="mb-4 text-[1.2rem] leading-8 px-3">{par.text}</p> : null
-                                    }
+                                    {/******** Paragraph Content ********/}
+                                    
+                                    {paragraph(par, id)}
+                                    
                                 </>
                             )
                             
                         })
                     }
 
-                {/******** Qute ********/}
-
-                    {
-                        article.qute? <p className="bg-[#eee] text-[1.2rem] leading-8 mb-4 p-4 border-dashed border-[2px] border-fontColor">{article.qute}</p> : null
-                    }
-
+                    {/******** Qute ********/}
+ 
+                    <Qute qute={article.qute} />
+                    
                 </div>
 
                 {/******** Article Data ********/}
