@@ -12,7 +12,7 @@ function Article() {
     const paragraph = (par, id) => {
         if (par.text.link.url) {
             return (
-                    <p key={id} className="mb-4 text-[1.2rem] leading-8 px-3">{par.text.t1} <a href={par.text.link.url} key={id} target="blank" className="hover:border-b-[2px] border-dashed border-fontColor">{par.text.link.name}</a> {par.text.t2}</p>
+                    <p key={id} className="mb-4 text-[1.2rem] leading-8 px-3">{par.text.t1} <a href={par.text.link.url} key={id} target="blank" className="text-blue-400 hover:border-dashed  border-blue-400 hover:border-b-[2px]">{par.text.link.name}</a> {par.text.t2}</p>
             )
         }  
         else {
@@ -38,6 +38,7 @@ function Article() {
                 <title>{article.title}</title>
                 <meta name="description" content={article.brief} />
             </Helmet>
+            
             <section className='w-smallSize sm:w-mainSize mx-auto py-[2rem]'>
 
                 {/******** Image ********/}
