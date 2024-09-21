@@ -1,5 +1,5 @@
-import { Helmet } from 'react-helmet-async';
-import aboutImg from '../../../public/images/about-giraffee.png'
+import { Helmet } from "react-helmet-async";
+import aboutImg from "../../assets/images/about-giraffee.png";
 import { BiSolidLeftArrow } from "react-icons/bi";
 import { BiSolidRightArrow } from "react-icons/bi";
 

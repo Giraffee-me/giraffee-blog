@@ -1,8 +1,13 @@
+import uxwritingar from "../../../assets/images/articlesImages/uxwritingar-6.png";
+import employee from "../../../assets/images/articlesImages/employee.png";
+import bamejAndCLanguage from "../../../assets/images/articlesImages/bamej-and-c-language.png";
+import cupOfWaterFullsize from "../../../assets/images/articlesImages/cup-of-water-fullsize.png";
+
 
 const articles = [
     {
         id: 4,
-        image: '../../../../public/images/uxwritingar-6.png',
+        image: uxwritingar,
         title: 'كتابة تجربة المستخدم | UX Writing',
         brief: 'متخصص كتابة تجربة المستخدم لا يمكن الإستغناء عنه أو استبداله ببديل آلي لأن العامل البشري فيه مهم لما له من حاجه دائمه للإبداع وإظهار الطابع البشري عليه، بجانب مهارة الذكاء العاطفي، والتي لا يملكها الذكاء الاصطناعي. فلا يمكن أبداً بأي حال من الأحوال أتمتة كتابة تجربة المستخدم...',
         date: '20/9/2024',
@@ -286,7 +291,7 @@ const articles = [
 
     {
         id: 3,
-        image: '../../../../public/images/employee.png',
+        image: employee,
         title: 'التطور الطبيعي للموظف المصري',
         brief: 'شغل وظيفة جديدة يصاحبها الكثير من الحماس ولا أقصد هنا حماس البدايات، لا بل حماس أسمى من ذلك خاصةً عندما تُقسم بالله أمام بعض المسئولين انك ستراعي الله في العمل ولن تتخاذل في أداء ما عليك...',
         date: '15/10/2021',
@@ -714,7 +719,7 @@ const articles = [
 
     {
         id: 2,
-        image: '../../../../public/images/bamej-and-c-language.png',
+        image: bamejAndCLanguage,
         title: 'منصة برمج ولغة سي C',
         brief: 'في رحلة بحثي عن طرق دخول هذا العالم التقني المليء بالتعلم والذكاء لم يفاجئني عدد التخصصات والتفرعات والتنوع الهائل في المجالات فهو عالم كبير لا محالة، لكن ما اخذ مني مجهود ووقت هو أختيار الباب أو المدخل الأنسب لي للولوج لهذا العالم الضخم...',
         date: '2/10/2021',
@@ -974,7 +979,7 @@ const articles = [
 
     {
         id: 1,
-        image: '../../../../public/images/cup-of-water-fullsize.png',
+        image: cupOfWaterFullsize,
         title: 'نصف الكأس الفارغ له بريق',
         brief: 'لطالما وقع على مسمعي قول "لا تنظر إلى نصف الكأس الفارغ وانظر إلى نصف الكأس الممتلئ". اتفق مع المقولة وأجدها من أعظم ما قيل عن القناعة والرضا ولا أجد بها خطأ حتى لا تاخذ مقعدها في ساحة قناعاتي، فتجعلني أبحث في داخلي ومن حولي على ما أملكه بالفعل واشرع في إحصائه، وحينها ينتابني شعور بالراحة النفسية، وهذا كل ما اريده أحياناً في مثل تلك الأوقات التي أشعر فيها أني بحاجة للمزيد...',
         date: '26/9/2021',

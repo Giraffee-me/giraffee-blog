@@ -1,5 +1,5 @@
-import { Helmet } from 'react-helmet-async';
-import mailPhoto from '../../../public/images/mail-white.png'
+import { Helmet } from "react-helmet-async";
+import mailPhoto from "../../assets/images/mail-white.png"
 import { BiSolidLeftArrow } from "react-icons/bi";
 import { BiSolidRightArrow } from "react-icons/bi";
 

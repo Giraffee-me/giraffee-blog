@@ -1,4 +1,4 @@
-import Home from '../../../../public/images/Giraffee-Home.png';
+import Home from "../../../assets/images/Giraffee-Home.png";
 import { FaXTwitter } from "react-icons/fa6";
 
 function HomeHeader() {
