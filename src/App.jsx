@@ -8,6 +8,7 @@ import Footer from "./Components/Footer";
 // import PostDetails from "./Components/Blogs/PostDetails";
 import Todo from "./Components/pages/todo/Todo";
 import Article from "./Components/pages/article/Article";
+import NewArticle from "./Components/pages/NewArticle";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         {/* <Route path="/blogs/:id" element={<PostDetails />} /> */}
         <Route path="/todo" element={<Todo />} />
         <Route path="/article/:url" element={<Article />} />
+        <Route path="/newarticle" element={<NewArticle />} />
       </Routes>
       <Footer />
     </>

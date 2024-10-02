@@ -27,6 +27,9 @@ function Article() {
 
     const { url } = useParams();
     const article = articles.find((article) => article.url === url);
+
+    // ********* URL Image of Article *********//
+    const articleImg = "/images/articlesImages/"+article.image;
   
     if (!article) {
       return <div>Post not found</div>;
@@ -36,7 +39,16 @@ function Article() {
         <>
             <Helmet>
                 <title>{article.title}</title>
-                <meta name="description" content={article.brief} />
+                <meta name="description" content={article.brief}/>
+                <meta name="twitter:title" content={article.title}/>
+                <meta name="twitter:description" content={article.brief}/>
+                <meta name="twitter:image" content={"https://giraffee.me/images/articlesImages/"+article.image}/>
+                
+                {/* Open Graph (for Facebook/other platforms) */}
+                <meta property="og:type" content="article"/>
+                <meta property="og:title" content={article.title}/>
+                <meta property="og:description" content={article.brief}/>
+                <meta property="og:image" content={"https://giraffee.me/images/articlesImages/"+article.image}/>
             </Helmet>
             
             <section className='w-smallSize sm:w-mainSize mx-auto py-[2rem]'>
@@ -44,7 +56,7 @@ function Article() {
                 {/******** Image ********/}
 
                 <div className='flex justify-center mb-[2rem]'>
-                    <img src={article.image} alt={article.title} className="mb-4" />
+                    <img src={articleImg} alt={article.title} className="mb-4" />
                 </div>
 
                 {/******** Article Text ********/}

@@ -15,7 +15,7 @@ function HomeHeader() {
             <h4 className="text-[18px] font-bold leading-9 mb-[1rem] px-3">
                 الكثير منا لا يُجيد الحديث لذلك يكون التـدوين طـوق النجـاة لتفريغ الأفكار المتزاحمة في أدمغتنا، وحتى إن كانت تلك الأفكار بسيطة قد يجدها أحدهم في هذا العالم الشاسع ذات قيمة.
             </h4>
-            <p className="text-[18px] mb-[2rem]">يمكنك الإشتراك في القائمة البريدية ليصلك منشوراتنا</p>
+            <p className="text-[18px] mb-[2rem]">يمكنك الإشتراك في القائمة البريدية لتصلك منشوراتنا</p>
             <div>
                 <a href="https://gohodhod.com/@giraffee" target='_blank'
                 to="/"
