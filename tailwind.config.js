@@ -8,6 +8,7 @@ export default {
         colors: {
             primary: '#FADC41',
             fontColor: '#282828',
+            brownG: "#422204"
           },
           width : {
             mainSize: '65%',
