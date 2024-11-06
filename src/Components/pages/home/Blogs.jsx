@@ -8,7 +8,7 @@ function Blogs () {
        {articles.map((article, index)=>{
         return (
             <article className="py-[0.5rem] px-" key={article.id}>
-                <div className="flex justify-between items-center">
+                <div className="flex flex-col sm:flex-row justify-between items-center gap-2 sm:gap-0">
                     <Link to={`/article/${article.url}`} className="font-bold border-dashed border-b-[2px] border-b-black py-2 text-[20px] text-start"> {article.title} </Link>
                     <div className="text-[14px] text-[#808080]">تاريخ النشر:{article.date} </div>
                 </div>
