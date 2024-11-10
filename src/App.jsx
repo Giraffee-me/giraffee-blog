@@ -9,6 +9,7 @@ import Todo from "./Components/pages/todo/Todo";
 import Article from "./Components/pages/article/Article";
 import NewArticle from "./Components/pages/NewArticle";
 import PageNotFound from "./Components/pages/PageNotFound";
+import Gallery from "./Components/pages/Gallery";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/todo" element={<Todo />} />
         <Route path="/article/:url" element={<Article />} />
         <Route path="/newarticle" element={<NewArticle />} />
+        <Route path="/gallery" element={<Gallery />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
       <Footer />

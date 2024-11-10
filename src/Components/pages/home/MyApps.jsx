@@ -10,6 +10,9 @@ function MyApps() {
         <Link to="/todo">
           <Application text="قائمة المهام" />
         </Link>
+        <Link to="/gallery">
+          <Application text="تصويري" />
+        </Link>
         <a href="https://shop.giraffee.me" target="blank">
           <Application text="متجرنــــــا" />
         </a>
