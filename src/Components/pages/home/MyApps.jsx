@@ -6,7 +6,7 @@ function MyApps() {
   return (
     <div className="w-full flex flex-col items-center justify-center mt-10">
       <Title text="تطبيقات" />
-      <div className="my-10 grid grid-cols-1 sm:grid-cols-2 w-mainSize gap-10 px-3">
+      <div className="my-10 grid grid-cols-1 sm:grid-cols-2 sm:w-mainSize gap-10 px-3">
         <Link to="/todo">
           <Application text="قائمة المهام" />
         </Link>
@@ -16,7 +16,9 @@ function MyApps() {
         <a href="https://shop.giraffee.me" target="blank">
           <Application text="متجرنــــــا" />
         </a>
-        <Application text="الطقس اليوم" />
+        <Link to="/weather">
+          <Application text="حالة الطقس اليوم" />
+        </Link>
         <Application text="تسجيل الدخول" />
         <Application text="المزيد . . ." />
       </div>

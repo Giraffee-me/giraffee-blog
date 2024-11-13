@@ -13,7 +13,7 @@ function Application({text}) {
             {
                 text === "متجرنــــــا" ?
                 <SiHomeassistantcommunitystore className="text-5xl sm:text-8xl py-2 sm:py-0 text-primary"/> : 
-                text === "الطقس اليوم" ? <TiWeatherPartlySunny className="text-5xl sm:text-8xl py-2 sm:py-0 text-primary"/> : 
+                text === "حالة الطقس اليوم" ? <TiWeatherPartlySunny className="text-5xl sm:text-8xl py-2 sm:py-0 text-primary"/> : 
                 text === "تسجيل الدخول" ? <GrLogin className="text-5xl sm:text-8xl py-2 sm:py-0 text-primary"/> : 
                 text === "المزيد . . ." ? <GrMore className="text-5xl sm:text-8xl py-2 sm:py-0 text-primary"/> :
                 text === "تصويري" ? <MdOutlinePhoto className="text-5xl sm:text-8xl py-2 sm:py-0 text-primary"/> :

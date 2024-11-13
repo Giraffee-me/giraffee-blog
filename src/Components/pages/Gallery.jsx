@@ -23,7 +23,7 @@ const Gallery = () => {
     }
 
     useEffect(()=>{
-        window.scroll(0, 100)
+        window.scroll(0, 76)
     },[])
 
 
@@ -71,8 +71,8 @@ const Gallery = () => {
             config={
                 {
                     url: "https://giraffee.me/gallery",
-                    identifier: "my-gallery",
-                    title: "gallery",
+                    identifier: "gallery",
+                    title: "Gallery",
                     language: 'ar'
                 }
             }
